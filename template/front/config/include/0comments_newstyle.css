@@ -1,0 +1,183 @@
+.comments_block {
+    clear: left;
+    float: none;
+    display: block;
+    margin-top: 30px;
+    padding: 20px;
+    padding-top: 0px;
+    font-size: 13px;
+}
+.comments_block .row {
+    clear: both;
+    margin-bottom: 25px;
+}
+.comments_block .comment_group_comment_content {
+    margin-left: 70px;
+    border: 1px solid #dedad9;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 0px 1px 1px 0px #dbdbdb;
+    -webkit-box-shadow: 0px 1px 1px 0px #dbdbdb;
+    box-shadow: 0px 1px 1px 0px #dbdbdb;
+}
+.comments_block .comment_group_name_time {
+    padding: 10px 12px;
+    background: #f3d078;
+    border-bottom: 1px solid #dddad3;
+    font-size: 13px;
+}
+.comments_block .comment_reply {
+    float: left;
+    display: inline-block;
+    width: 70px;
+    padding-top: 5px;
+    text-align: center;
+}
+.comments_block .reply_row .comment_group_comment_content {
+    margin-left: 130px;
+}
+.comments_block .comment_reply i {
+    display: none;
+}
+.comments_block .comment_face {
+    float: left;
+    margin-right: 20px;
+}
+.comments_block .comment_name {
+    font-weight: bold;
+    color: black;
+    float: left;
+    padding-right: 7px;
+}
+.comments_block .comment_time {
+    font-weight: normal;
+    color: #4c4c4c;
+    text-align: left;
+}
+.comments_block .comment_text {
+    padding: 12px;
+    font-weight: normal;
+    text-align: left;
+}
+.comments_block img {
+    width: 55px;
+    height: 74px;
+    padding: 4px;
+    border: 1px solid #dedad9;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.comments_block .comment_add {
+    padding: 10px 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.comments_block h2 {
+    padding-bottom: 1em;
+    text-align: left;
+}
+.comments_block .reply_row {
+    margin-top: -13px;
+}
+.comments_block .reply_row img {
+    width: 45px;
+    height: 60px;
+    border: 1px solid #dedad9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.comments_block .reply_row .comment_face {
+    float: left;
+    margin-right: 10px;
+}
+.comment_add .row {
+    clear: both;
+    padding-bottom: 14px;
+}
+.comment_add .field_name {
+    float: left;
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    padding-top: 3px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.comment_add .field_value {
+    float: left;
+    display: inline-block;
+    text-align: left;
+	  width: 80%;
+}
+.comment_add .field_value input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #dedad9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.comment_add .field_value textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #dedad9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-family: Helvetica, Arial;
+}
+.comment_add .button {
+    margin-top: 15px;
+    float: none;
+    background: #c0c0c0;
+    color: black;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+@media (max-width: 550px) {
+    .comments_block {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px;
+        border: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .comments_block .comment_group_comment_content {
+        margin-left: 60px;
+    }
+    .comments_block .comment_group_name_time {
+        padding: 8px 10px;
+    }
+    .comments_block .comment_text {
+        padding: 10px;
+    }
+    .comments_block .comment_name {
+        float: none;
+        text-align: left;
+    }
+    .comment_add .field_name {
+        display: block;
+        float: none;
+        text-align: left;
+        width: 90%;
+    }
+    .comment_add .field_value {
+        float: none;
+        display: block;
+    }
+    .comment_add .row {
+        padding-bottom: 0;
+        margin-bottom: 15px!important;
+    }
+    .comment_add .button {
+        margin-left: 0;
+        margin-top: 0;
+    }
+}

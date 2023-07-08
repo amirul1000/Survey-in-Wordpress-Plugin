@@ -1,0 +1,54 @@
+/*
+========================================================================
+Offer Wall CSS
+========================================================================
+*/
+
+
+
+ul {
+  margin:0; 
+  padding:0; 
+  list-style-type: none;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clearfix:after {clear: both;}
+
+
+/*================ Specific Page Style ================*/
+
+.offerwall {margin:0 auto; padding:0; width: 100%; max-width:800px; border-bottom: 1px #A6A6A6 solid;text-align:left;}
+.offerwall img {float:left; width:120px;}
+.offerwall .row {margin:0; padding:14px 0 10px 0; border-top: 1px #A6A6A6 solid;}
+.offerwall .row .detailsBox {margin-left:15px; padding:0; float: left; max-width: 45%;}
+.offerwall .row .detailsBox h3 {margin:0; padding:0; font-size: 1.0em; line-height: 1.2;}
+.offerwall .row .detailsBox h4 {margin:4px 0 4px 0; padding:0; font-size: 0.85em; line-height: 1.1; font-weight:bold;}
+.offerwall .row .detailsBox li {margin:0; padding:0; font-size: 0.85em; line-height: 1.1;}
+.offerwall .row .detailsBox li:nth-of-type(1) span {text-decoration: line-through;}
+.offerwall .row .detailsBox li:nth-of-type(2) span {color: #33CC00; background-color: #FFFF00; padding: 0 3px; font-weight: bold;}
+.offerwall .row .detailsBox li:nth-of-type(4) span {color: #FF0000; font-weight: bold;}
+
+.offerwall .row .buttonBox {margin:0; padding:0; float: right; }
+.offerwall .row .buttonBox .button {margin-top: 40px; cursor: pointer;}
+
+
+/*================ Media Queries ================*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width : 839px) 
+{
+
+.offerwall {width: 100%;text-align:left;}
+.offerwall .noMobile {display:none;}
+.offerwall .row .detailsBox {margin-left:40px; padding:0; float: left; max-width:260px; }
+.offerwall .row .detailsBox h3 {margin:0; padding:0; font-size: 1.2em; line-height: 1.2;}
+.offerwall .row .detailsBox h4 {margin:4px 0 4px 0; padding:0; font-size: 1.1em; line-height: 1.1; font-weight:bold;}
+.offerwall .row .detailsBox li {margin:0; padding:0; font-size: 1.0em; line-height: 1.1;}
+.offerwall .row .buttonBox {clear:both; float: left; text-align: left; margin:10px 0 10px 160px;}
+.offerwall .row .buttonBox .button {margin-top: 5px;}
+}

@@ -1,0 +1,22 @@
+
+#loading {
+  text-align:center;
+  margin-top: 30px;
+  display: none;  
+}
+
+#reward {
+  display: none;
+}
+
+#intro-text {
+  display: inline;
+}
+
+#reward-text {
+  display: none;
+}
+
+.survey-question {
+  display: none;
+ }

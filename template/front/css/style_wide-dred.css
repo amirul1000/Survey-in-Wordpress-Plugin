@@ -1,0 +1,147 @@
+body {
+	background-color:#ffffff;
+	font-family:"Verdana";
+	font-size:15px;
+	margin:0;
+}
+
+h1 {
+	font-size:1.5em;
+	font-weight:500;
+	color:green;
+}
+h2 {
+	font-size:1.2em;
+	border-bottom:0px;
+	padding-bottom:0px;
+}
+
+.undercolor {
+	text-decoration:underline;
+	color:red;
+}
+
+.highlight {
+	background-color:yellow;
+	font-weight:bold;
+}
+
+.introimage {
+	height:150px;
+	float:left;
+	margin:0 20px 10px 0;
+}
+
+#footerimages {
+	text-align:center;
+	margin:60px 0 20px 0;
+}
+
+#footer {
+	max-width:700px;
+	font-size:0.7em;
+	color:#333;
+	margin:0 auto;
+}
+
+#footer img {
+	height:50px;
+	width:50px;
+}
+
+#header {
+	width:100%;
+	font-size:2.0em;
+	font-weight:700;
+	background:#df1131;
+	padding:10px;
+	margin:0 auto;
+	font-family:arial;
+	color:#fff;
+	border:0;
+	text-align:center;
+}
+
+#wrapper {
+	max-width:100%;
+	margin:0px auto;
+	padding:0;
+	background:#fff;
+	border:0;
+}
+
+#content {
+	max-width:700px;
+	margin:0px auto;
+	padding:20px;
+	background:#fff;
+}
+
+#questionarea {
+	border:0px solid #f49b25;
+	padding:15px;
+	clear:both;
+	min-height:280px;
+	text-align:center;
+}
+
+@media (max-width:839px) {
+	#content { max-width:700px; margin:0px auto; padding:5px; }
+	#header  { font-size:1.3em; padding:5px; }
+	#questionarea { padding:5px; clear:both; min-height:280px; }
+}
+
+.answer {
+	-moz-box-shadow:0px 0px 7px 1px #dbdbdb;
+	-webkit-box-shadow:0px 0px 7px 1px #dbdbdb;
+	box-shadow:0px 0px 7px 1px #dbdbdb;
+	background-color:#c70e2b;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border:1px solid #000;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFF;
+	font-family:arial;
+	font-size:18px;
+	font-weight:normal;
+	padding:6px 12px;
+	text-decoration:none;
+	width:300px;
+	margin:4px 0 4px 0;
+	text-align:center;
+}
+.answer:hover {
+	background-color:#e31233;
+}
+.answer:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.button {
+	-moz-box-shadow:0px 0px 7px 1px #dbdbdb;
+	-webkit-box-shadow:0px 0px 7px 1px #dbdbdb;
+	box-shadow:0px 0px 7px 1px #dbdbdb;
+	background-color:#c70e2b;
+	border:1px solid #000;
+	cursor:pointer;
+	color:#FFF;
+	font-family:arial;
+	font-size:1.0em;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	float:right;
+	margin:0 20px 0 0;
+}
+.button:hover {
+	background-color:#e31233;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
